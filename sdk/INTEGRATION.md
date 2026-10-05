@@ -11,7 +11,7 @@ webhooks, custom tables, HWID detection, and server-signature checks.
 | Python     | `pip install authv4` (`authv4[files]` for file downloads)      | Python 3.9+                 |
 | Node.js    | `npm install authv4`                                           | Node 18+, nothing else      |
 | Go         | `go get github.com/V12KLT/authris-sdk/sdk/go/v4`                    | Go 1.21+, stdlib only       |
-| Java       | JitPack: `com.github.V12KLT:authris:v4.0.0`                    | JDK 11+, no dependencies    |
+| Java       | JitPack: `com.github.V12KLT:authris-sdk:v4.0.0`                    | JDK 11+, no dependencies    |
 | Rust       | `cargo add authv4`                                             | Cargo                       |
 | C#         | `dotnet add package AuthV4`                                    | .NET 8, no packages         |
 | C++        | CMake FetchContent (`v4.0.0` tag)                              | libcurl + OpenSSL           |

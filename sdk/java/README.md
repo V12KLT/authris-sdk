@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.V12KLT:authris:v4.0.0'
+    implementation 'com.github.V12KLT:authris-sdk:v4.0.0'
 }
 ```
 
