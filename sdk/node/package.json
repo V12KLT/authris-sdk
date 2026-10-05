@@ -1,6 +1,6 @@
 {
   "name": "authv4",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Authris license client SDK",
   "main": "authv4.js",
   "files": ["authv4.js", "README.md"],

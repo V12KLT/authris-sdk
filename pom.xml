@@ -4,11 +4,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <!-- Coordinates are placeholders: JitPack publishes this as
-       com.github.V12KLT:authris-sdk:<git-tag>. Tag a release (v4.0.0)
+       com.github.V12KLT:authris-sdk:<git-tag>. Tag a release (v4.0.1)
        and depend on it without any registry account. -->
   <groupId>com.github.V12KLT</groupId>
   <artifactId>authris-sdk</artifactId>
-  <version>4.0.0</version>
+  <version>4.0.1</version>
   <packaging>jar</packaging>
   <name>Authris Java SDK</name>
   <description>Authris license client SDK</description>
