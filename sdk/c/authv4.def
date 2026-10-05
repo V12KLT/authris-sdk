@@ -1,0 +1,21 @@
+LIBRARY authv4
+EXPORTS
+    authv4_setup
+    authv4_init
+    authv4_license
+    authv4_user_register
+    authv4_user_login
+    authv4_user_redeem
+    authv4_heartbeat
+    authv4_info
+    authv4_variable
+    authv4_variables
+    authv4_file
+    authv4_webhook
+    authv4_table
+    authv4_machine_hwid
+    authv4_sha256_file
+    authv4_json_get
+    authv4_json_get_int
+    authv4_json_is_true
+    authv4_json_has_pair

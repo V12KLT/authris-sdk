@@ -1,0 +1,31 @@
+[package]
+name = "authv4"
+version = "4.0.0"
+edition = "2021"
+description = "Authris license client SDK"
+license = "MIT"
+repository = "https://github.com/V12KLT/authris-sdk"
+homepage = "https://github.com/V12KLT/authris-sdk"
+readme = "README.md"
+keywords = ["licensing", "auth", "hwid", "drm"]
+categories = ["api-bindings", "authentication"]
+exclude = ["src/bin/"]
+
+[lib]
+name = "authv4"
+path = "src/lib.rs"
+
+[[bin]]
+name = "checklive"
+path = "src/bin/checklive.rs"
+
+[dependencies]
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+hmac = "0.12"
+hex = "0.4"
+base64 = "0.22"
+aes-gcm = "0.10"
+p256 = { version = "0.13", features = ["ecdsa"] }

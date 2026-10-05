@@ -1,0 +1,17 @@
+{
+  "name": "authv4",
+  "version": "4.0.0",
+  "description": "Authris license client SDK",
+  "main": "authv4.js",
+  "files": ["authv4.js", "README.md"],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V12KLT/authris-sdk.git",
+    "directory": "sdk/node"
+  },
+  "keywords": ["licensing", "drm", "auth", "hwid"]
+}
