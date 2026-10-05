@@ -1,6 +1,6 @@
 # authv4 (Python)
 
-Authris license client for Python 3.9+. Standard library only —
+Authris license client for Python 3.9+. Standard library only â€”
 no dependencies unless you download encrypted files.
 
 ```sh

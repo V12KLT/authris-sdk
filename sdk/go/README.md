@@ -1,6 +1,6 @@
 # authv4 (Go)
 
-Authris license client for Go 1.21+. Standard library only —
+Authris license client for Go 1.21+. Standard library only â€”
 zero dependencies.
 
 ```sh

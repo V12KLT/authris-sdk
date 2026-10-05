@@ -1,6 +1,6 @@
 # authv4 (Node.js)
 
-Authris license client for Node 18+. Standard library only —
+Authris license client for Node 18+. Standard library only â€”
 zero dependencies.
 
 ```sh

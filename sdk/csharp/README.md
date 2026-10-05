@@ -1,6 +1,6 @@
 # AuthV4 (C#)
 
-Authris license client for .NET 8+. Framework only —
+Authris license client for .NET 8+. Framework only â€”
 no packages.
 
 ```sh
