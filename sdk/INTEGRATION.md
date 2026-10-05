@@ -11,11 +11,11 @@ webhooks, custom tables, HWID detection, and server-signature checks.
 | Python     | `pip install authv4` (`authv4[files]` for file downloads)      | Python 3.9+                 |
 | Node.js    | `npm install authv4`                                           | Node 18+, nothing else      |
 | Go         | `go get github.com/V12KLT/authris-sdk/sdk/go/v4`                    | Go 1.21+, stdlib only       |
-| Java       | JitPack: `com.github.V12KLT:authris-sdk:v4.0.1`                    | JDK 11+, no dependencies    |
+| Java       | JitPack: `com.github.V12KLT:authris-sdk:v4.0.2`                    | JDK 11+, no dependencies    |
 | Rust       | `cargo add authv4`                                             | Cargo                       |
 | C#         | `dotnet add package AuthV4`                                    | .NET 8, no packages         |
-| C++        | CMake FetchContent (`v4.0.1` tag)                              | libcurl + OpenSSL           |
-| C          | CMake FetchContent (`v4.0.1` tag)                              | libcurl + OpenSSL           |
+| C++        | CMake FetchContent (`v4.0.2` tag)                              | libcurl + OpenSSL           |
+| C          | CMake FetchContent (`v4.0.2` tag)                              | libcurl + OpenSSL           |
 
 Prefer the package install. Without package access, the dashboard
 Setup page lets end users download each SDK file with one click
@@ -30,7 +30,7 @@ python sdk/live/run_all.py
 
 Releasing a new SDK version: bump the version in every manifest
 (`pyproject.toml`, `package.json`, `AuthV4.csproj`, `Cargo.toml`),
-commit, then tag it (`git tag v4.0.1 && git push --tags`). The tag
+commit, then tag it (`git tag v4.0.2 && git push --tags`). The tag
 triggers `.github/workflows/release-sdks.yml`, which publishes to
 PyPI, npm, crates.io, and NuGet. Go, JitPack, and FetchContent
 resolve straight from the tag, so they need no registry step.

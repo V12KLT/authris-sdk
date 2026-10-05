@@ -8,7 +8,7 @@ include(FetchContent)
 FetchContent_Declare(
   authv4
   GIT_REPOSITORY https://github.com/V12KLT/authris-sdk.git
-  GIT_TAG        v4.0.1
+  GIT_TAG        v4.0.2
 )
 FetchContent_MakeAvailable(authv4)
 

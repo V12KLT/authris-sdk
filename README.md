@@ -9,11 +9,11 @@ info, variables, files, webhooks, custom tables, user accounts.
 | Python   | `pip install authv4` (`authv4[files]` for file downloads) |
 | Node.js  | `npm install authv4` |
 | Go       | `go get github.com/V12KLT/authris-sdk/sdk/go/v4` |
-| Java     | JitPack `com.github.V12KLT:authris-sdk:v4.0.1` |
+| Java     | JitPack `com.github.V12KLT:authris-sdk:v4.0.2` |
 | Rust     | `cargo add authv4` |
 | C#       | `dotnet add package AuthV4` |
-| C++      | CMake FetchContent, tag `v4.0.1` (see `sdk/cpp/README.md`) |
-| C        | CMake FetchContent, tag `v4.0.1` (see `sdk/c/README.md`) |
+| C++      | CMake FetchContent, tag `v4.0.2` (see `sdk/cpp/README.md`) |
+| C        | CMake FetchContent, tag `v4.0.2` (see `sdk/c/README.md`) |
 
 Each `sdk/<lang>/` folder has a README with a working quickstart plus an
 `example`. Start with [sdk/INTEGRATION.md](sdk/INTEGRATION.md).
@@ -24,8 +24,8 @@ Bump the version in every manifest (`pyproject.toml`, `package.json`,
 `AuthV4.csproj`, `Cargo.toml`), commit, then:
 
 ```
-git tag v4.0.1
-git tag sdk/go/v4.0.1
+git tag v4.0.2
+git tag sdk/go/v4.0.2
 git push --tags
 ```
 

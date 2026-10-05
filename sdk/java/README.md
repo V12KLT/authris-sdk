@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.V12KLT:authris-sdk:v4.0.1'
+    implementation 'com.github.V12KLT:authris-sdk:v4.0.2'
 }
 ```
 
@@ -25,7 +25,7 @@ dependencies {
 <dependency>
   <groupId>com.github.V12KLT</groupId>
   <artifactId>authris</artifactId>
-  <version>v4.0.1</version>
+  <version>v4.0.2</version>
 </dependency>
 ```
 
