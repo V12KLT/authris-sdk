@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - "v*"
+  workflow_dispatch:
 
 jobs:
   pypi:
@@ -48,12 +49,17 @@ jobs:
 
   nuget:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-dotnet@v4
       - run: dotnet pack AuthV4/AuthV4.csproj -c Release -o nupkg
         working-directory: sdk/csharp
-      - run: dotnet nuget push "nupkg/*.nupkg" --api-key "$NUGET_API_KEY" --source https://api.nuget.org/v3/index.json
+      - name: NuGet login
+        id: login
+        uses: NuGet/login@v1
+        with:
+          user: Authris
+      - run: dotnet nuget push "nupkg/*.nupkg" --api-key "${{ steps.login.outputs.NUGET_API_KEY }}" --source https://api.nuget.org/v3/index.json
         working-directory: sdk/csharp
-        env:
-          NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
